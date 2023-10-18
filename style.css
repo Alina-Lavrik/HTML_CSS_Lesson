@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*подключаем шрифты указанные в html в link*/
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Посмотрели, что ширина контента на макете 1200px (1200 / 2 = 600), дальше фон*/
+.center {
+    padding-left: calc(50% - 600px);       /*отступ внутри слева*/
+    padding-right: calc(50% - 600px);       /*отступ внутри слева*/
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #2F2E41;
+    display: flex;      /*для отображения элементов по горизонтали*/
+    gap: 32px;          /*расстояние между*/
+}
+
+.header_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.top {
+    padding-top: 84px;
+    padding-bottom: 84px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+
+.title {
+    width: 578px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 113px;
+    color: #6C63FF;
+    mix-blend-mode: normal;
+}
+.about {
+    background: rgba(242, 242, 242, 0.34);
+    padding-top: 64px;
+    padding-bottom: 194px;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80px;
+    color: #6C63FF;
+    mix-blend-mode: normal; 
+}
+
+.about_content  {
+    margin-top: 50px;    /*внешний отступ*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_text {
+    width: 462px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    mix-blend-mode: normal; 
+}
+
+/*Подключение шрифта: название и толщина шрифта*/
+
+
+
+
+
+
+
+
